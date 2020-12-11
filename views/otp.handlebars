@@ -1,0 +1,11 @@
+Please check your inbox for the OTP
+
+
+<p>{{error}}</p>
+<form method="POST" action="verifyOtp">
+    <input type="text" hidden name = "email" value ="{{email}}" ></input>
+    <label for="otp">OTP:</label><br>
+    <input type="number" id="otp" name="otp"></input>
+    <br><br>
+    <button type="submit">Submit</button>
+</form>
